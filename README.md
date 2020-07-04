@@ -1,2 +1,4 @@
 # Aprendendo PHP e github
-Aprendendo a manipular versões pelo vs code e terminal linux.
+Primeiro, aprendendo a manipular versões pelo vs code e dando um push pelo terminal linux.
+
+Depois, alterando novamente e dando o push pelo vs code.
