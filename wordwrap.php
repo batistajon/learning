@@ -8,6 +8,8 @@
 <body>
     <?php
         $t = "Aqui temos um texto gigante para mostrar o funcionamento da função wordwrap";
+        $r = wordwrap($t, 20, "<br/>\n");
+        echo "$r";
     ?>
 </body>
 </html>
