@@ -10,7 +10,7 @@
         $p = leite;
         $pr = 7;
 
-        echo "o $p custa $pr";
+        echo "o $p custa R$ " . number_format($pr,2);
     ?>
 </body>
 </html>
