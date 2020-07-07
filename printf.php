@@ -8,7 +8,7 @@
 <body>
     <?php
         $p = leite;
-        $pr = 5;
+        $pr = 7;
 
         echo "o $p custa $pr";
     ?>
