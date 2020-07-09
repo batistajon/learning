@@ -1,0 +1,14 @@
+div {
+background-color: brown;    
+width: 1200px;
+height: 100px;
+color: rgb(94, 39, 39);
+border: brown;
+text-align: center;
+padding-top: 10px;
+}
+
+h1 {
+    color: #000000;
+
+}
