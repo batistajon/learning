@@ -9,7 +9,7 @@
     <?php
         //
         $usuario_possui_cartao = true;
-        $valor_compra = 250;
+        $valor_compra = 725;
 
         $valor_frete = 50;
         $recebeu_desc_frete = true;
