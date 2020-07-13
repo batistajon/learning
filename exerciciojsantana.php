@@ -14,7 +14,7 @@
         $valor_frete = 50;
         $recebeu_desc_frete = false;
 
-        if($usuario_possui_cartao == true && $valor_compra >= 100) {
+        if($usuario_possui_cartao && $valor_compra >= 100) {
             $valor_frete = 0;
             $recebeu_desc_frete = true;
         }
@@ -24,7 +24,7 @@
 
     <p>Possui cartão da loja?
     <?php
-        if($usuario_possui_cartao == true) {
+        if($usuario_possui_cartao) {
             echo 'Sim';
         } else {
             echo 'Não';
@@ -36,7 +36,7 @@
 
         <p>Recebeu desconto no frete?
             <?php
-                if($recebeu_desc_frete == true){
+                if($recebeu_desc_frete){
                     echo 'Sim';
                 } else {
                     echo 'Não';
