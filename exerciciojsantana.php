@@ -9,15 +9,23 @@
     <?php
         //
         $usuario_possui_cartao = true;
-        $valor_compra = 225;
+        $valor_compra = 250;
 
         $valor_frete = 50;
-        $recebeu_desc_frete = false;
+        $recebeu_desc_frete = true;
 
-        if($usuario_possui_cartao && $valor_compra >= 100) {
+        if($usuario_possui_cartao && $valor_compra >= 400) {
             $valor_frete = 0;
+          
+        } elseif($usuario_possui_cartao && $valor_compra >= 300) {
+            $valor_frete = 10;
+            
+        } elseif($usuario_possui_cartao && $valor_compra >= 100) {
+            $valor_frete = 25;
+
+        } else {    
             $recebeu_desc_frete = true;
-        }
+        } 
     ?>
 
     <h1>Detalhes do pedido.</h1>
