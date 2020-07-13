@@ -13,6 +13,7 @@
         //echo "o $p custa R$ " . number_format($pr,2);
 
         printf("O %s custa R$ %.2f", $p, $pr);
+        
     ?>
 </body>
 </html>
