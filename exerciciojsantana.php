@@ -47,7 +47,7 @@
             <?php
 
                 $teste = $recebeu_desc_frete ? 'Sim' : 'Não';
-
+ 
                 echo $teste;
 
                 /*
