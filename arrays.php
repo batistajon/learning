@@ -16,6 +16,10 @@
         echo '<pre>;';
         print_r($lista_coisas);
         echo '</pre>';
+
+        echo in_array('Uva', $lista_coisas['frutas']);
+        echo '<br />';
+        echo array_search('Banana', $lista_coisas['frutas']);
     ?>
 </body>
 </html>
