@@ -20,6 +20,11 @@
         echo in_array('Uva', $lista_coisas['frutas']);
         echo '<br />';
         echo array_search('Banana', $lista_coisas['frutas']);
+
+        echo '<hr />';
+        
+        $retorno = is_array($lista_coisas);
+        echo $retorno;
     ?>
 </body>
 </html>
