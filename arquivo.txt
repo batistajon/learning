@@ -1,0 +1,12 @@
+3#assistencia tecnica#Impressora#defeito ao ligar
+3#assistencia tecnica#Impressora#defeito ao ligar
+3#assistencia tecnica#Impressora#defeito ao ligar
+4#assistencia tecnica#Hardware#Tela azul
+4#celular bloqueado#Hardware#o meu celular não liga
+3#note nao liga#Hardware#nao liga
+1#note nao liga#Hardware#ver chamado
+3#brabo#Software#não entra
+3#ta ruim#Software#hhhhhhhhhh
+4#teste recuperação#Software#teste de recuperação
+4#teste alternativo#Impressora#alternativo
+3#alt2#Rede#alt2
