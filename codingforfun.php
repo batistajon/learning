@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="estilo.css"/>
 </head>
 <body>
-    <div src="imagens/coffee-beans-165052.jpg" name="fundo de grãos">
+    <div src="./imagens/coffee-beans-165052.jpg" name="fundo de grãos">
         <h1>Olha esse café!</h1>
+        <h2>Especial</h2>
+    
+
     </div>
 </body>
 </html>

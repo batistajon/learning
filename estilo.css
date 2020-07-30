@@ -1,15 +1,24 @@
 body {
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(225, 196, 255);
 }
 
-div {
+.div {
     text-align: center;
+    background-color: rgb(0, 27, 107);
+    color: white;
+    text-decoration: salmon;
     
 }
 
-h1 {
+.h1 {
     text-shadow: #3a3a3a;
     text-align: center;
     color: aliceblue;
-    
+
+}
+
+.h2 {
+    color: aliceblue;
+    text-decoration-color: aliceblue;
+    text-decoration-color: seashell;
 }
